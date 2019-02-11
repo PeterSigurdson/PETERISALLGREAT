@@ -1,14 +1,19 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Peter is all great!</title>
 </head>
 <body>
     <script>
+        var input1 = prompt("how high should I count up to?"); 
         var sum = 0;
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < input1; i++) {
+            document.write("Point A: i is " + i);
+            document.write("Point A: sum is " + sum);
             sum += i;
+            document.write("Point B: sum is " + sum);
         }
+        document.write("Point c: i is " + i);
         document.write(sum);
     </script>
 
